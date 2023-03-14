@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -623,4 +624,23 @@ li a p{
     /* margin-bottom: 20px; */
     font-size: 32px;
     /* padding-bottom: 25px; */
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color:#007bff
 }
