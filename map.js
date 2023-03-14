@@ -1,4 +1,5 @@
-// Create an array to store the location data for each user
+// Create an array to store the location data for each users
+
 var userLocations = [
     { name: 'User 1', latitude: 22.7196, longitude: 75.8577 },
     { name: 'User 2', latitude: 22.7597, longitude: 75.8677 },
