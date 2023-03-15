@@ -91,6 +91,7 @@ section .title::after {
     background-color:  rgb(255 253 253);
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    position: relative;
 }
 
 .navbar .max-width {
@@ -640,14 +641,14 @@ li a p{
 }
 
 #map{
-    height: auto;
-    width: auto;
+    /* height: auto;
+    width: auto; */
     position: fixed;
     overflow: hidden!important;
     display: block;
     z-index: 10;
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 20px;
     height:720px ;
     width: 100%;
 } 
