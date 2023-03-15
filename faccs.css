@@ -10,7 +10,7 @@ html{
 
 body{
     /* background-color:#f857a6; */
-    background-color:  #8bf14a;
+    background: radial-gradient(rgb(221, 120, 137));
 }
 
 .heading{
@@ -24,7 +24,7 @@ body{
 
 .main{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0fr;
 }
 
 .flex-item{
