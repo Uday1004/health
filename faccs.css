@@ -28,10 +28,16 @@ body{
 }
 
 .flex-item{
-    margin: 20px;
+    
+    margin: 44px;
     padding: 5px;
     line-height: 30px;
-    background-color:#0fb917;
+    background-color: #bbeae0;
+    box-shadow: 10px 10px 14px black;
+    border: 1px solid #bbeae0;
+    border-radius: 46px;
+    width: 487px;
+    
 }
 
 .flex-head {

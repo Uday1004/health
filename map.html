@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <style>
+      #map {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+    </style>
+  </head>
+  <body>
+    <div id="map">
+      <a href="https://www.navicmaps.com" style="position:absolute;left:10px;bottom:10px;z-index:999;"><img src="https://navicmaps.com/logoicon.png" style="width:25px;" alt="NavicMaps logo"></a>
+    </div>
+    <p><a href="https://www.navicmaps.com/copyright/" target="_blank">&copy; NavicMaps</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a></p>
+    <script>
+      var map = L.map('map').setView([0, 0], 1);
+      L.tileLayer('http://maps.navicmaps.com/maptiles/styles/basic-preview/{z}/{x}/{y}.png?key=YOUR_API_KEY_HERE',{ 
+        tileSize: 512,
+        zoomOffset: -1,
+        minZoom: 1,
+        attribution: "\u003ca href=\"https://www.navicmaps.com/copyright/\" target=\"_blank\"\u003e\u0026copy; NavicMaps\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e",
+        crossOrigin: true
+      }).addTo(map);
+    </script>
+  </body>
+</html>
+	
