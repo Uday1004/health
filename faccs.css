@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+
+
 html{
     box-sizing: border-box;
 }
@@ -29,11 +38,13 @@ body{
 
 .flex-item{
     
-    margin: 44px;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-top: 40px;
     padding: 5px;
     line-height: 30px;
     background-color: #bbeae0;
-    box-shadow: 10px 10px 14px black;
+    box-shadow: 10px 10px 30px black;
     border: 1px solid #bbeae0;
     border-radius: 46px;
     width: 487px;
@@ -67,3 +78,4 @@ body{
     font-size: 25px;
     border-radius: 5px;
 }
+.text{}
