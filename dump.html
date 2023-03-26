@@ -83,7 +83,7 @@
         <div class="card">
           <div class="card-body">
             <h3 class="card-title">Login</h3>
-            <form>
+            <form action="index.html" method="post">
               <div class="form-group">
                 <label for="username">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter Email">
@@ -92,11 +92,17 @@
                 <label for="password">Password:</label>
                 <input type="password" class="form-control" id="password" placeholder="Enter password">
               </div>
-              <button type="submit" class="btn btn-primary uday link-light"> <a href="index.html">Submit</a></button>
+              <button type="submit" class="btn btn-primary uday link-light" onclick="myFunction()">Submit</button>
             </form>
           </div>
         </div>
-      </div>      
+      </div>    
+      
+      <script>
+        function myFunction(){
+            alert('Submission Successfully')
+        }
+    </script>
 </body>
 </html>
 
